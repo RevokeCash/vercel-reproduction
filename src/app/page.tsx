@@ -23,7 +23,9 @@ export default function Home() {
           <li>Save and see your changes instantly.</li>
         </ol>
 
-        <Image src="/cover" alt="Cover" width={1200} height={630} />
+        <Image src="/cover-static" alt="Cover Static" width={1200} height={630} />
+
+        <Image src="/cover-dynamic" alt="Cover Dynamic" width={1200} height={630} />
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <a

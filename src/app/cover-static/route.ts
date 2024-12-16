@@ -4,6 +4,8 @@ import { generateOgImage, loadDataUrl } from '../generate';
 // even though it is listed as a supported feature in the documentation. 🤬
 // https://github.com/vercel/next.js/issues/57349
 
+export const dynamic = 'force-static';
+
 export async function GET(req: Request) {
   const title = 'How To Revoke Token Approvals';
   const background = loadDataUrl(`public/cover.jpg`, 'image/jpeg');
